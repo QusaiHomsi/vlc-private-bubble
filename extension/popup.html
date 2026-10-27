@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font: 14px/1.4 system-ui, sans-serif; margin: 0; padding: 12px; min-width: 280px; color: #1b1b1f; background: #fff; }
+    @media (prefers-color-scheme: dark) { body { background: #1c1b22; color: #fbfbfe; } button { background: #2b2a33; color: inherit; } }
+    h1 { font-size: 15px; margin: 0 0 8px; }
+    label { display: flex; gap: 8px; align-items: center; padding: 6px 0; }
+    h2 { font-size: 13px; margin: 12px 0 6px; }
+    button { display: block; width: 100%; text-align: left; margin: 0 0 6px; padding: 10px; border: 1px solid #8884; border-radius: 8px; font: inherit; cursor: pointer; overflow-wrap: anywhere; }
+    #status { margin-top: 8px; min-height: 1.4em; font-size: 13px; }
+    .kind { font-weight: 600; }
+  </style>
+</head>
+<body>
+  <h1>VLC Private Bubble</h1>
+  <label><input type="checkbox" id="bubble"> Show floating bubble over videos</label>
+  <label><input type="checkbox" id="pauseOnLaunch"> Pause the page video after opening it in VLC</label>
+  <p>Tap the floating bubble to choose Download or VLC View, then select a detected quality. Android may preview direct files instead of saving them. HLS/DASH save playlist links, not complete offline videos.</p>
+  <h2>Streams found on this tab</h2>
+  <div id="list"></div>
+  <button id="pageUrl">Prepare this page's address for VLC</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
