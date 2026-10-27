@@ -1,5 +1,7 @@
 # VLC Private Bubble
 
+> **VIBE-CODED:** This extension was developed with substantial AI assistance, including AI-generated and AI-edited code. It may contain mistakes; review the source and test it before relying on it.
+
 [Install from Firefox Add-ons](https://addons.mozilla.org/firefox/addon/vlc-private-bubble/)
 
 A Firefox extension (desktop and Android). A small draggable bubble appears over web videos. Tap it to choose **Download** or **VLC View**, then select a detected quality.
