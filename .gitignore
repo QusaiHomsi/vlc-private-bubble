@@ -1,0 +1,4 @@
+# Ignore local AMO packages, review screenshots, and the retired native host.
+vlc-private-bubble-*.zip
+amo-*-submission.png
+native-host/
